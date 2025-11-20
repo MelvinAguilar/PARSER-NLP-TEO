@@ -1,4 +1,4 @@
-# parser-LL1-TEO2025
+# parser-NL-TEO2025
 
 Repositorio didáctico para experimentar con un mini-parser descendente recursivo que acepta oraciones SVO en español. El foco actual es exclusivamente el módulo de lenguaje natural (`nl_parser.py`) y sus herramientas auxiliares para traza, visualización de árboles, comparación con spaCy y ejecución automatizada de pruebas.
 
@@ -6,7 +6,7 @@ Repositorio didáctico para experimentar con un mini-parser descendente recursiv
 
 - Python 3.10+
 - `pip install -r requirements.txt`
-- (Opcional) `python -m spacy download es_core_news_sm` para habilitar `compare_nlp.py`
+- `python -m spacy download es_core_news_sm` para habilitar `compare_nlp.py`
 
 ## Estructura relevante
 
